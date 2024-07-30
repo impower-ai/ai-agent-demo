@@ -1,0 +1,25 @@
+{
+  "name": "typescript-starter",
+  "version": "1.0.0",
+  "description": "nitric typescript starter template",
+  "private": true,
+  "dependencies": {
+    "@ai-sdk/azure": "^0.0.15",
+    "@ai-sdk/openai": "^0.0.38",
+    "@nitric/sdk": "^1.2.1",
+    "ai": "^3.2.34",
+    "axios": "^1.7.2",
+    "fs": "^0.0.1-security",
+    "serpapi": "^2.1.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "dotenv": "^16.4.5",
+    "nodemon": "2.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "dev:services": "nodemon -r dotenv/config"
+  }
+}

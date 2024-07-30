@@ -1,0 +1,204 @@
+openapi: 3.0.0
+info:
+  title: Wikipedia, On this Day
+  description: This API can be used to retrieve birth, deaths, and events for any given day of the year. The data is all harvested from Wikipedia and therefore licensed under [Creative Commons Attribution-ShareAlike 3.0 Unported License](https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License). The API itself is available as-is. Just keep calm and query on.
+  version: 1.0.0
+  contact:
+    name: Albin Larsson
+    email: albin.post@gmail.com
+    url: https://byabbe.se/
+  license:
+    name: Creative Commons Attribution-ShareAlike 3.0 Unported License
+    url: https://en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License
+servers:
+  - url: https://byabbe.se/on-this-day
+paths:
+  /{month}/{day}/events.json:
+    get:
+      summary: Returns a list of events that occured on this date in the past.
+      parameters:
+        - name: month
+          in: path
+          required: true
+          description: The month represented with a value between 1 and 12.
+          schema:
+            type : integer
+            format: int64
+            minimum: 1
+            maximum: 12
+            example: 1
+        - name: day
+          in: path
+          required: true
+          description: The day represented with a value between 1 and 31.
+          schema:
+            type : integer
+            format: int64
+            minimum: 1
+            maximum: 31
+            example: 25
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  date:
+                    type: string
+                    example: February 2
+                  wikipedia:
+                    type: string
+                    example: https://en.wikipedia.org/wiki/February_2
+                  events:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/event'
+
+  /{month}/{day}/deaths.json:
+    get:
+      summary: Returns a list of deaths that occured on this date in the past.
+      parameters:
+        - name: month
+          in: path
+          required: true
+          description: The month represented with a value between 1 and 12.
+          schema:
+            type : integer
+            format: int64
+            minimum: 1
+            maximum: 12
+        - name: day
+          in: path
+          required: true
+          description: The day represented with a value between 1 and 31.
+          schema:
+            type : integer
+            format: int64
+            minimum: 1
+            maximum: 31
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  date:
+                    type: string
+                    example: February 2
+                  wikipedia:
+                    type: string
+                    example: https://en.wikipedia.org/wiki/February_2
+                  deaths:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/death'
+
+  /{month}/{day}/births.json:
+    get:
+      summary: Returns a list of births that occured on this date in the past.
+      parameters:
+        - name: month
+          in: path
+          required: true
+          description: The month represented with a value between 1 and 12.
+          schema:
+            type : integer
+            format: int64
+            minimum: 1
+            maximum: 12
+        - name: day
+          in: path
+          required: true
+          description: The day represented with a value between 1 and 31.
+          schema:
+            type : integer
+            format: int64
+            minimum: 1
+            maximum: 31
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  date:
+                    type: string
+                    example: February 2
+                  wikipedia:
+                    type: string
+                    example: https://en.wikipedia.org/wiki/February_2
+                  births:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/birth'
+
+components:
+  schemas:
+    event:
+      type: object
+      properties:
+        year:
+          type: string
+          example: 750
+        description:
+          type: string
+          example: In the Battle of the Zab, the Abbasid rebels defeat the Umayyad Caliphate, leading to overthrow of the dynasty.
+        wikipedia:
+          type: array
+          items:
+            type: object
+            properties:
+              title:
+                type: string
+                example: Battle of the Zab
+              wikipedia:
+                type: string
+                example: https://wikipedia.org/wiki/Battle_of_the_Zab
+
+    death:
+      type: object
+      properties:
+        year:
+          type: string
+          example: 951
+        description:
+          type: string
+          example: Liu Chengyou, Emperor Yin of the Later Han
+        wikipedia:
+          type: array
+          items:
+            type: object
+            properties:
+              title:
+                type: string
+                example: Liu Chengyou
+              wikipedia:
+                type: string
+                example: https://wikipedia.org/wiki/Liu_Chengyou
+
+    birth:
+      type: object
+      properties:
+        year:
+          type: string
+          example: 1462
+        description:
+          type: string
+          example: Piero di Cosimo, Italian painter (d. 1522)
+        wikipedia:
+          type: array
+          items:
+            type: object
+            properties:
+              title:
+                type: string
+                example: Piero di Cosimo
+              wikipedia:
+                type: string
+                example: https://wikipedia.org/wiki/Piero_di_Cosimo
