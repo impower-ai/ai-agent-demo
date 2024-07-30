@@ -20,8 +20,8 @@ Another key enabler of Agentic systems is the set of tools—applications that A
 
 ![image](https://github.com/user-attachments/assets/bd5b4048-9474-4ac8-b730-3e04010a7994)
 
-This is a stark contrast from traditional business process automation, where developers need to deeply understand the business process, often requiring the process to be rigidly defined. Developers then have to code the process, handle exceptions, and constantly maintain the system. Now, we live in a world where business processes can be described in plain English to an AI agent. We simply provide the agent with the correct tools and guidelines, and watch it autonomously complete the task. This shift significantly simplifies and accelerates the automation of business processes.
+This is a stark contrast from traditional business process automation, where developers need to deeply understand the business process, often requiring the process to be rigidly defined. Developers then have to code the process, handle exceptions, and constantly maintain the system. Now, we live in a world where business processes can be described in plain English to an AI agent. We simply provide the agent with the correct tools and guidelines, and watch it autonomously complete the task. These agents can even recognize when they need more information and proactively reach out to humans for assistance. This shift significantly simplifies and accelerates the automation of business processes, making them more adaptable and efficient.
 
 ![image](https://github.com/user-attachments/assets/2379e915-73eb-4658-a98d-dc5784495e0b)
 
-When you harness the intelligence and reasoning of an LLM to business processes and enable seamless interaction with other systems, you transcend into the realm of TRUE intelligent automation.
+We believe that in the near future, companies will have large teams of AI agents operating in parallel with employees, creating new levels of efficiency, innovation, and collaboration. When you harness the intelligence and reasoning of an LLM to business processes and enable seamless interaction with other systems, you transcend into the realm of TRUE intelligent automation.
