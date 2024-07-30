@@ -30,6 +30,8 @@ We believe that in the near future, companies will have large teams of AI agents
 
 ### Technology
 
+![image](https://github.com/user-attachments/assets/94ec57fb-3973-4810-8a14-764cbdcd1852)
+
 #### Nitric - https://nitric.io/
 
 We are consistently tasked with building various API layers for organizations, whether it be a backend for an app or an integration layer. Typically, we design our APIs with an API gateway that interfaces with either containers or serverless functions. This setup often includes components such as Pub/Sub systems, storage buckets, secrets management, and more.
@@ -38,7 +40,19 @@ Deploying and managing this stack can be complex, frequently requiring numerous 
 
 If you haven't checked out Nitric yet, we highly recommend it.
 
-### Vercel AI SDK - https://sdk.vercel.ai/
+<img src="https://github.com/user-attachments/assets/48a0218b-7aa7-412f-b6fc-7be507c665e8" alt="image" width="125" height="50">
+
+#### Vercel AI SDK - https://sdk.vercel.ai/
+
+We recognize that it is still early days for the creation and adoption of Agentic frameworks and best practices. While there are many other solutions in this space, including Langchain, CrewAI, AutoGen, AgentGPT, and more, we ultimately chose Vercel's AI SDK for this demo. We found it offers an incredible amount of simplicity for solving complex problems. We were also impressed by Vercel's holistic approach to integrating Generative AI across an application's entire stack, from frontend to backend.
+
+- [SDK Core](https://sdk.vercel.ai/docs/ai-sdk-core) - A unified API for generating text, structured objects, and tool calls with LLMs.
+- [AI SDK UI](https://sdk.vercel.ai/docs/ai-sdk-ui): A set of framework-agnostic hooks for quickly building chat and generative user interface.
+- [AI SDK RSC](https://sdk.vercel.ai/docs/ai-sdk-rsc): A library to stream generative user interfaces with React Server Components (RSC).
+
+We highly recommend checking out [v0 from Vercel](https://v0.dev/) to see some of the cool things Vercel has been working on in the space. 
+
+
 
 
 
