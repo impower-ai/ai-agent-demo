@@ -53,6 +53,12 @@ We recognize that it is still early days for the creation and adoption of Agenti
 We highly recommend checking out [v0 from Vercel](https://v0.dev/) to see some of the cool things Vercel has been working on in the space. 
 
 
+### Key Concepts
+
+#### API Endpoint
+
+We
+
 
 
 
