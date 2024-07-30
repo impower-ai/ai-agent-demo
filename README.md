@@ -25,3 +25,20 @@ This is a stark contrast from traditional business process automation, where dev
 ![image](https://github.com/user-attachments/assets/2379e915-73eb-4658-a98d-dc5784495e0b)
 
 We believe that in the near future, companies will have large teams of AI agents operating in parallel with employees, creating new levels of efficiency, innovation, and collaboration. When you harness the intelligence and reasoning of an LLM to business processes and enable seamless interaction with other systems, you transcend into the realm of TRUE intelligent automation.
+
+## Demo Overview
+
+### Technology
+
+#### Nitric - https://nitric.io/
+
+We are consistently tasked with building various API layers for organizations, whether it be a backend for an app or an integration layer. Typically, we design our APIs with an API gateway that interfaces with either containers or serverless functions. This setup often includes components such as Pub/Sub systems, storage buckets, secrets management, and more.
+
+Deploying and managing this stack can be complex, frequently requiring numerous Terraform files to piece everything together. Nitric offers a different approach by understanding your code and automatically deploying the necessary resources and infrastructure, significantly simplifying the process. The local development experience with Nitric is also fantastic, arguably the best we've seen for building cloud-native backends.
+
+If you haven't checked out Nitric yet, we highly recommend it.
+
+### Vercel AI SDK - https://sdk.vercel.ai/
+
+
+
