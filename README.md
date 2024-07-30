@@ -16,7 +16,7 @@ At a high level, Generative AI has evolved from being merely conversational to b
 
 What makes Agentic AI truly powerful is its ability to autonomously develop and reason through complex plans while recognizing when it needs human assistance. This blend of independence and collaborative ability ensures that business operations are not only streamlined but also intelligently managed.
 
-Another key enabler of Agentic systems is the set of tools—applications that AI agents can interact with. Typically, this interaction occurs through an API layer, allowing AI agents to reason and decide which tools are needed to fulfill their responsibilities effectively. This is no different from how humans work. We understand a task, develop a plan, interact with the necessary tools, and often report on completion. Similarly, Agentic AI systems understand their responsibilities, devise plans, utilize the appropriate tools through APIs, and complete tasks efficiently.
+Another key enabler of Agentic systems is the set of tools—applications that AI agents can interact with. Typically, this interaction occurs through an API layer, allowing AI agents to reason and decide which tools are needed to fulfill their responsibilities effectively. This is no different from how humans work. We understand a task, develop a plan, interact with the necessary tools, and understand when the task is complete. Similarly, Agentic AI systems understand their responsibilities, devise plans, utilize the appropriate tools through APIs, and complete tasks efficiently.
 
 ![image](https://github.com/user-attachments/assets/bd5b4048-9474-4ac8-b730-3e04010a7994)
 
