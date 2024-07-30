@@ -1,32 +1,27 @@
 # AI Agent Demo
 
-We have seen a shift from conversational AI into Agentic AI, marking a significant milestone in the evolution of business automation. Our AI Agent Demo is designed to showcase the capabilities of AI Agents in a straightforward and easily digestible manner. 
-
+We believe recent technological advancements in Generative AI have propelled us into a new era of business process automation. From basic task automation to conversational AI, we now stand at the forefront of Agentic AI. This significant milestone showcases the evolution towards more intelligent and autonomous systems. Our AI Agent Demo is designed to highlight the powerful capabilities of AI Agents in a clear and accessible way.
 
 ## Background
 
-Over the last 6 years we have been automating business processes with RPA tools both internally and across our client base. These were often Low Code platforms built specifically for orchestrating the automation of business processes across an organizations compute.
+Over the past six years, we have been leveraging RPA tools to automate business processes both internally and for our clients. These low-code platforms are specifically designed to orchestrate business workflows across organizational infrastructure. These processes often span multiple systems, execute business logic, determine proper paths, incorporate human-in-the-loop concepts, and involve complex data analysis—all tasks that humans can quickly assess with their eyes and mind. This is where RPA has always fallen short. We are taking flexible business processes and forcing them into rigid, predefined paths, limiting their true potential.
 
-We employ incredible technologists, where we have often had discussions about RPA's shortcomings and how there was a much better world we could be living in. We believe in pushing the boundaries of the tools and platforms we utilize, and that is why we have drawn the conclusion below.
+The term Intelligent Automation has been around for a while, often used as a sales tactic and elevator pitch to sell business process automation software as something it is not. At the end of the day, traditional business automation workflow software is just code designed to follow a specific path; there is no true intelligence here. We simply define exactly what we want our automation to do programmatically, and it does it.
 
-We believe that time is now. 
+We employ exceptional technologists who have frequently discussed the limitations of RPA. These discussions have propelled us on a quest for better solutions. We envision a world where automation is truly intelligent, capable of adapting, learning, and transforming businesses in unprecedented ways. With the technological advancements of recent years, we believe the time is now to turn this vision into reality.
 
-Generative AI has no doubt made an impact on our society. Since November 30th 2022, there has been a significant shift in the user experiences and capablities we are able to deploy into our technology stack. 
+Generative AI has undoubtedly made a profound impact on our society. Since November 30th, 2022, we have witnessed a significant shift in the user experiences and capabilities we can integrate into our technology stack. Initially, it was remarkable to create a RAG app on an internal knowledge base or offer customers a more personalized chat experience. However, we have now ventured into a broader set of use cases that will significantly shape organizations going forward.
 
-While initially it was great to be able to create a RAG app on your internal knowledge base, or provide a chat experience to your customers that felt more personalized, we have crossed into a broader set of use cases that will significantly shape organizations as we go forward.
+At a high level, Generative AI has evolved from being merely conversational to becoming autonomous. This evolution has given rise to the concept of Agentic systems. Although the definition is still somewhat vague as we are early in this journey, these systems address many of the shortcomings of traditional automation tools. Agentic systems are designed to adapt, learn, and operate independently, offering a more advanced and versatile approach to automation.
 
-Generative AI has evolved from conversational to autonomous. A concept of Agentic systems has emerged. While the definition is often vague as we are early in the journey it solves many of the shortcomings of traditional automation tools. 
+What makes Agentic AI truly powerful is its ability to autonomously develop and reason through complex plans while recognizing when it needs human assistance. This blend of independence and collaborative ability ensures that business operations are not only streamlined but also intelligently managed.
 
-We describe Agentic AI as a specialized program designed for ochestrating business process and procedures. This agent is trained on the specific procedure and given access to the tools required. 
+Another key enabler of Agentic systems is the set of tools—applications that AI agents can interact with. Typically, this interaction occurs through an API layer, allowing AI agents to reason and decide which tools are needed to fulfill their responsibilities effectively. This is no different from how humans work. We understand a task, develop a plan, interact with the necessary tools, and often report on completion. Similarly, Agentic AI systems understand their responsibilities, devise plans, utilize the appropriate tools through APIs, and complete tasks efficiently.
 
-Agents are capable of developing a plan, reasoning through that plan, and understanding when it needs a humans help.
+![image](https://github.com/user-attachments/assets/bd5b4048-9474-4ac8-b730-3e04010a7994)
 
-While researching Agentic type frameworks we landed on Vercel's AI SDK through Modelfusion. We felt the user experience of writing code was the best at the time. We may be right or wrong and there are other great open source libraries solving this problem as well. (Langchain, CrewAI, more..)
+This is a stark contrast from traditional business process automation, where developers need to deeply understand the business process, often requiring the process to be rigidly defined. Developers then have to code the process, handle exceptions, and constantly maintain the system. Now, we live in a world where business processes can be described in plain English to an AI agent. We simply provide the agent with the correct tools and guidelines, and watch it autonomously complete the task. This shift significantly simplifies and accelerates the automation of business processes.
 
-What makes Agents so powerful is their ability to interact with applications across your tech stack utilizing API's. Tools in Agentic AI make all the difference in the world. The idea that you can give a team of agents acess to the tools required through API documentation, is truly transformative when it comes to business process automation.
+![image](https://github.com/user-attachments/assets/2379e915-73eb-4658-a98d-dc5784495e0b)
 
-Often these processes are spanning multiple systems, executing business logic, determining proper paths (fix), have a human in the loop concept, involve complex data analysis, etc.. Essentially all the things we as humans are able to quickly assess with our eyes and mind. This is where RPA has always fallen short. We are taking flexible business processes and saying it has to be either this or that.
-
-When you can apply intelligence and reasoning to business processes and the ability to interact with other systems you cross into TRUE intelligent automation. This has been a concept thrown around a lot as a sales technique, however now it is real. 
-
-We built the demo below to be an easily consumable example of an AI Agent. This demo hits many of the concept at a basic level that should provide the foundational understanding of what Agent AI systems are capable of.
+When you harness the intelligence and reasoning of an LLM to business processes and enable seamless interaction with other systems, you transcend into the realm of TRUE intelligent automation.
