@@ -60,5 +60,25 @@ We highly recommend checking out [v0 from Vercel](https://v0.dev/) to see some o
 We
 
 
+#### Resources 
+
+For those interested in learning more about AI agents, here are some valuable resources:
+
+Articles & Blog Posts:
+
+[Why agents are the next frontier of generative AI](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/why-agents-are-the-next-frontier-of-generative-ai)
+[Unlock the power of AI agents to scale generative AI innovation](https://www.kearney.com/service/digital-analytics/article/unlock-the-power-of-ai-agents-to-scale-generative-ai-innovation)
+[What are AI Agents?](https://aws.amazon.com/what-is/ai-agents/#:~:text=AI%20agents%20are%20rational%20agents,uses%20customer%20queries%20as%20input.)
+[Introduction to LLM Agents](https://developer.nvidia.com/blog/introduction-to-llm-agents/)
+[An Introduction to AI Agents](https://medium.com/humansdotai/an-introduction-to-ai-agents-e8c4afd2ee8f)
+
+Academic Papers:
+[A Survey on Context-Aware Multi-Agent Systems: Techniques, Challenges and Future Directions](https://arxiv.org/abs/2402.01968)
+[AI Agents That Matter](https://arxiv.org/abs/2407.01502)
+[The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864)
+
+
+
+
 
 
