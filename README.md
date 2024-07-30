@@ -52,8 +52,20 @@ We recognize that it is still early days for the creation and adoption of Agenti
 
 We highly recommend checking out [v0 from Vercel](https://v0.dev/) to see some of the cool things Vercel has been working on in the space. 
 
+#### Open AI - https://openai.com/
+
+We are leveraging OpenAI as our LLM, as it provides the best developer experience out of the box for understanding this demo. Vercel's AI SDK supports many providers. https://sdk.vercel.ai/docs/foundations/providers-and-models
+
+#### SerpApi - https://serpapi.com/
+
+We leverage SerpApi as a tool to search the internet for information. 
 
 ### Key Concepts
+
+We wanted to provide a demo that showcases several capabilities that can be applied across all business process automation efforts. 
+- Accessing the internet. Our demo will research and summarize multiple things.
+- Interacting with an API. We built an On This Day Tool which returns random facts about a day. The purpose was to show how AI Agents can very easily interact with external systems and use the knowledge gained during its process.
+- Crafting communication through emails. Communication is key with AI Agents.
 
 #### API Endpoint
 
