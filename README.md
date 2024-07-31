@@ -4,9 +4,9 @@ We believe recent technological advancements in Generative AI have propelled us 
 
 ## Background
 
-Over the past six years, we have been leveraging RPA tools to automate business processes both internally and for our clients. These low-code platforms are specifically designed to orchestrate business workflows across organizational infrastructure. These processes often span multiple systems, execute business logic, determine proper paths, incorporate human-in-the-loop concepts, and involve complex data analysis—all tasks that humans can quickly assess with their eyes and mind. 
+Over the past six years, we have been leveraging RPA tools to automate business processes both internally and for our clients. These low-code platforms are specifically designed to orchestrate business workflows across organizational infrastructure. These processes often span multiple systems, execute business logic, determine proper paths, incorporate human-in-the-loop concepts, and involve complex data analysis—all tasks that humans can quickly assess with their eyes and mind.
 
-The term Intelligent Automation has been around for a while, often used as a sales tactic and elevator pitch to sell business process automation software as something it is not. At the end of the day, traditional business automation workflow software is just code designed to follow a specific path; there is no true intelligence here. We simply define exactly what we want our automation to do programmatically, and it does it. This is where RPA has always fallen short. We are taking flexible business processes and forcing them into rigid, predefined paths, limiting their true potential and significantly impacting the end user experience.s
+The term Intelligent Automation has been around for a while, often used as a sales tactic and elevator pitch to sell business process automation software as something it is not. At the end of the day, traditional business automation workflow software is just code designed to follow a specific path; there is no true intelligence here. We simply define exactly what we want our automation to do programmatically, and it does it. This is where RPA has always fallen short. We are taking flexible business processes and forcing them into rigid, predefined paths, limiting their true potential and significantly impacting the end-user experience.
 
 We employ exceptional technologists who have frequently discussed the limitations of RPA. These discussions have propelled us on a quest for better solutions. We envision a world where automation is truly intelligent, capable of adapting, learning, and transforming businesses in unprecedented ways. With the technological advancements of recent years, we believe the time is now to turn this vision into reality.
 
@@ -16,10 +16,9 @@ At a high level, Generative AI has evolved from being merely conversational to b
 
 What makes Agentic AI truly powerful is its ability to autonomously develop and reason through complex plans while recognizing when it needs human assistance. This blend of independence and collaborative ability ensures that business operations are not only streamlined but also intelligently managed. Imagine you were given a task to do; in your mind, you would format a plan of execution. This is exactly what our Agents are doing—formulating and executing sophisticated plans to achieve optimal results, while seamlessly integrating human input when necessary. This approach not only enhances efficiency but also leverages the unique strengths of both AI and human expertise.
 
-Another key enabler of Agentic systems is the set of tools—applications that AI agents can interact with. These tools allow AI agents to reason and decide which resources are needed to fulfill their responsibilities effectively. Once an agent has its plan, it begins to execute it using the tools available. This is no different from how humans work. Think of a task like preparing meeting notes for a new client meeting. You would most likely work with a CRM to gather relevant client information and a word processing tool to draft the notes. Similarly, Agentic AI systems understand their responsibilities, devise plans, and utilize the appropriate tools to get the job done. Traditionally, agents can be trained on the API of external systems for integration, enabling them to seamlessly interact with various platforms and applications within your organization. These agents can even recognize when they need more information and proactively reach out to humans for assistance, ensuring a continuous and efficient workflow. 
+Another key enabler of Agentic systems is the set of tools—applications that AI agents can interact with. These tools allow AI agents to reason and decide which resources are needed to fulfill their responsibilities effectively. Once an agent has its plan, it begins to execute it using the tools available. This is no different from how humans work. Think of a task like preparing meeting notes for a new client meeting. You would most likely work with a CRM to gather relevant client information and a word processing tool to draft the notes. Similarly, Agentic AI systems understand their responsibilities, devise plans, and utilize the appropriate tools to get the job done. Traditionally, agents can be trained on the API of external systems for integration, enabling them to seamlessly interact with various platforms and applications within your organization. These agents can even recognize when they need more information and proactively reach out to humans for assistance, ensuring a continuous and efficient workflow.
 
 ![image](https://github.com/user-attachments/assets/d153c8b9-2a79-4acf-9f80-c2e5decbc6c4)
-
 
 This is a stark contrast from traditional automation tools, where developers need to deeply understand the business process, often requiring the process to be rigidly defined. Developers then have to code the process, handle exceptions, and constantly maintain the system. Now, we live in a world where business processes can be described in plain English to an AI agent. We simply provide the agent with the correct tools and guidelines, and watch it autonomously complete the task. These agents can even recognize when they need more information and proactively reach out to humans for assistance.
 
@@ -49,31 +48,35 @@ If you haven't checked out Nitric yet, we highly recommend it.
 
 We recognize that it is still early days for the creation and adoption of Agentic frameworks and best practices. While there are many other solutions in this space, including Langchain, CrewAI, AutoGen, AgentGPT, and more, we ultimately chose Vercel's AI SDK for this demo. We found it offers an incredible amount of simplicity for solving complex problems. We were also impressed by Vercel's holistic approach to integrating Generative AI across an application's entire stack, from frontend to backend.
 
-- [SDK Core](https://sdk.vercel.ai/docs/ai-sdk-core) - A unified API for generating text, structured objects, and tool calls with LLMs.
+- [SDK Core](https://sdk.vercel.ai/docs/ai-sdk-core): A unified API for generating text, structured objects, and tool calls with LLMs.
 - [AI SDK UI](https://sdk.vercel.ai/docs/ai-sdk-ui): A set of framework-agnostic hooks for quickly building chat and generative user interface.
 - [AI SDK RSC](https://sdk.vercel.ai/docs/ai-sdk-rsc): A library to stream generative user interfaces with React Server Components (RSC).
 
-We highly recommend checking out [v0 from Vercel](https://v0.dev/) to see some of the cool things Vercel has been working on in the space. 
+We highly recommend checking out [v0 from Vercel](https://v0.dev/) to see some of the cool things Vercel has been working on in the space.
 
-#### Open AI - https://openai.com/
+<img src="https://github.com/user-attachments/assets/af59f8fe-826e-4854-b799-7d5f367bdf92" alt="image" width="150" height="50">
 
-We are leveraging OpenAI as our LLM, as it provides the best developer experience out of the box for understanding this demo. Vercel's AI SDK supports many providers. https://sdk.vercel.ai/docs/foundations/providers-and-models
+#### OpenAI - https://openai.com/
+
+We are leveraging OpenAI as our LLM, as it provides the best developer experience out of the box for understanding this demo. Vercel's AI SDK supports many providers: https://sdk.vercel.ai/docs/foundations/providers-and-models
 
 #### SerpApi - https://serpapi.com/
 
-We leverage SerpApi as a tool to search the internet for information. 
+We leverage SerpApi to efficiently search the internet for relevant information.
 
 ### Key Concepts
 
-We wanted to provide a demo that showcases several capabilities that can be applied across all business process automation efforts. 
-- Accessing the internet. Our demo will research and summarize multiple things.
-- Interacting with an API. We built an On This Day Tool which returns random facts about a day. The purpose was to show how AI Agents can very easily interact with external systems and use the knowledge gained during its process.
-- Crafting communication through emails. Communication is key with AI Agents.
+We aimed to provide a demo that showcases several capabilities applicable across all business process automation efforts:
 
-#### API Endpoint
+- **Accessing the internet:** Our demo demonstrates the ability to research and summarize various topics.
+- **Interacting with APIs:** We built an "On This Day" tool that returns random facts about a specific day, illustrating how AI agents can seamlessly interact with external systems and incorporate the acquired knowledge into their processes.
+- **Crafting communication through emails:** Effective communication is crucial for AI agents, and our demo highlights their proficiency in creating well-crafted emails.
 
-We
+#### Event Planner Agent
 
+This file defines an API endpoint `/agent/eventPlanner` that uses AI to assist in event planning. When a POST request is made to this endpoint with event details, it constructs a detailed prompt for the AI model. The AI agent then develops a comprehensive plan for execution. Once the plan is developed, the agent begins to execute it by leveraging the available tools. The endpoint manages any errors that occur during this process and currently returns the result of the plan or an error message in the response.
+
+![image](https://github.com/user-attachments/assets/04fe5ac2-0804-437c-8ed3-59aa90c5073d)
 
 
 
