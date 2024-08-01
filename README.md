@@ -74,6 +74,9 @@ We highly recommend checking out [v0 from Vercel](https://v0.dev/) to see some o
 We are leveraging OpenAI as our LLM, as it provides the best developer experience out of the box for understanding this demo. 
 Vercel's AI SDK supports many providers: https://sdk.vercel.ai/docs/foundations/providers-and-models
 
+![image](https://github.com/user-attachments/assets/397f5829-aaf3-4405-bc08-006761e39d7d)
+
+
 #### SerpApi - https://serpapi.com/
 
 We leverage SerpApi to efficiently search the internet for relevant information.
