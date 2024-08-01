@@ -4,15 +4,16 @@ We believe recent technological advancements in Generative AI have propelled us 
 
 ## Background
 
-Over the past six years, we have been leveraging RPA tools to automate business processes both internally and for our clients. These low-code platforms are specifically designed to orchestrate business workflows across organizational infrastructure. These processes often span multiple systems, execute business logic, determine proper paths, incorporate human-in-the-loop concepts, and involve complex data analysis.
+Over the past six years, we have leveraged RPA tools to automate business processes both internally and for our clients. These low-code platforms are specifically designed to orchestrate business workflows across organizational infrastructure. These processes often span multiple systems, execute business logic, determine proper paths, incorporate human-in-the-loop concepts, and involve complex data analysis—all tasks that humans can quickly visually assess and comprehend. 
 
-The term Intelligent Automation has been around for a while, often used as a sales tactic and elevator pitch to sell business process automation software as something it is not. At the end of the day, traditional business automation workflow software is just code designed to follow a specific path; there is no true intelligence here. We simply define exactly what we want our automation to do programmatically, and it does it. This is where RPA has always fallen short. We are taking flexible business processes and forcing them into rigid, predefined paths, with zero adaptability, limiting their true potential and significantly impacting the end-user experience.
+The term Intelligent Automation is not novel, and has often been exploited as a sales tactic and elevator pitch to sell business process automation software as something it is not. Ultimately, traditional business automation workflow software is merely code designed to follow a specific path; there is no true intelligence here. We simply define exactly what we want our automation to do programmatically, and it follows the given workflow. This is where RPA has always fallen short. We are taking flexible business processes and forcing them into rigid, predefined paths, limiting their true potential.
 
 ![image](https://github.com/user-attachments/assets/c2bc7e33-255e-4db4-bf60-f1e6abd388fe)
 
-We employ exceptional technologists who have frequently discussed the limitations of RPA. These discussions have propelled us on a quest for better solutions. We envision a world where automation is truly intelligent, capable of adapting, learning, and transforming businesses in unprecedented ways. With the technological advancements of recent years, we believe the time is now to turn this vision into reality.
 
-Generative AI has undoubtedly made a profound impact on our society. Since November 30th, 2022, we have witnessed a significant shift in the user experiences and capabilities we can integrate into our technology stack. Initially, it was remarkable to create a RAG app on an internal knowledge base or offer customers a more personalized chat experience. However, we have now ventured into a broader set of use cases that will significantly shape organizations going forward.
+We employ exceptional technologists with a high-level expertise in RPA development. However, discussions have consistently arisen regarding the inefficiencies and hinderences of RPA within a business context. These issues have propelled us on a quest for better solutions. We envision a world where automation is truly intelligent, capable of adapting, learning, and transforming businesses in unprecedented ways. With the technological advancements of recent years, we believe the time is now to turn this vision into reality.
+
+Generative AI has undoubtedly made a profound impact on our society. Since November 30th, 2022, we have witnessed a significant shift in the user experiences and capabilities that can be integrated into our technology stack. Initially, it was remarkable to create a RAG app on an internal knowledge base or offer customers a more personalized chat experience. Such is the past, however. We have now ventured into a broader set of use cases that will significantly shape organizations going forward.
 
 At a high level, Generative AI has evolved from being merely conversational to becoming autonomous. This evolution has given rise to the concept of Agentic systems. Although the definition is still somewhat vague as we are early in this journey, these systems address many of the shortcomings of traditional automation tools. Agentic systems are designed to adapt, learn, and operate independently, offering a more advanced and versatile approach to automation.
 
@@ -27,15 +28,15 @@ What makes Agentic AI truly powerful is its ability to autonomously develop and 
 
 Another key enabler of Agentic systems is the set of tools—applications that AI agents can interact with. These tools allow AI agents to reason and decide which resources are needed to fulfill their responsibilities effectively. Once an agent has its plan, it begins to execute it using the tools available. This is no different from how humans work. Think of a task like preparing meeting notes for a new client meeting. You would likely utilize a CRM to manage and organize client information, conduct internet searches to gather relevant details, and use a word processing tool to draft your notes. Similarly, Agentic AI systems understand their responsibilities, devise plans, and utilize the appropriate tools to get the job done. Traditionally, agents can be trained on the API of external systems for integration, enabling them to seamlessly interact with various platforms and applications within your organization. 
 
+
+This is a stark contrast from traditional business process automation, where developers require substantial domain knowledge of a business process, often confining the process to rigidly defined parameters. Developers then have to code the process, handle exceptions, and constantly maintain the system. Now, we live in a world where business processes can be described in plain English to an AI agent. We simply provide the agent with the correct tools and guidelines, and watch it autonomously complete the task. These agents can even recognize when they need more information and proactively reach out to humans for assistance. This shift significantly simplifies and accelerates the automation of business processes, making them more adaptable and efficient.
+
 ![image](https://github.com/user-attachments/assets/d153c8b9-2a79-4acf-9f80-c2e5decbc6c4)
-
-This is a stark contrast from traditional automation tools, where developers need to deeply understand the business process, often requiring the process to be rigidly defined. Developers then have to code the process, handle exceptions, and constantly maintain the system. Now, we live in a world where business processes can be described in plain English to an AI agent. We simply provide the agent with the correct tools and guidelines, and watch it autonomously complete the task.
-
 
 
 This shift not only significantly simplifies and accelerates the automation of business processes but also makes them more adaptable and efficient. By leveraging the unique strengths of both AI and human expertise, businesses can achieve a level of operational agility and intelligence that was previously unattainable.
 
-We believe that in the near future, companies will have large teams of AI agents operating in parallel with employees, creating new levels of efficiency, innovation, and collaboration. When you harness the intelligence and reasoning of an LLM to business processes and enable seamless interaction with other systems, you transcend into the realm of TRUE intelligent automation.
+We believe that in the near future, companies will have large teams of AI agents operating in parallel with employees, creating new levels of efficiency, innovation, and collaboration. When you harness the intelligence and reasoning of an LLM within business processes and enable seamless interaction with other systems, you transcend into the realm of TRUE intelligent automation.
 
 ![image](https://github.com/user-attachments/assets/870768f6-c40e-4932-b286-9b075fec0b3c)
 
@@ -58,7 +59,7 @@ If you haven't checked out Nitric yet, we highly recommend it.
 
 #### Vercel AI SDK - https://sdk.vercel.ai/
 
-We recognize that it is still early days for the creation and adoption of Agentic frameworks and best practices. While there are many other solutions in this space, including Langchain, CrewAI, AutoGen, AgentGPT, and more, we ultimately chose Vercel's AI SDK for this demo. We found it offers an incredible amount of simplicity for solving complex problems. We were also impressed by Vercel's holistic approach to integrating Generative AI across an application's entire stack, from frontend to backend.
+We recognize that we are still in the early stages of the creation and adoption of Agentic frameworks and best practices. While there are many other solutions in this space, including Langchain, CrewAI, AutoGen, AgentGPT, and more, we ultimately chose Vercel's AI SDK for this demo. We found it offers an incredible amount of simplicity for solving complex problems. We were also impressed by Vercel's holistic approach to integrating Generative AI across an application's entire stack, from frontend to backend.
 
 - [SDK Core](https://sdk.vercel.ai/docs/ai-sdk-core): A unified API for generating text, structured objects, and tool calls with LLMs.
 - [AI SDK UI](https://sdk.vercel.ai/docs/ai-sdk-ui): A set of framework-agnostic hooks for quickly building chat and generative user interface.
@@ -127,6 +128,26 @@ Enter a JSON body with a key of event.
 If everything is wired up correctly you should see a response that contains the plan and results.
 
 ![image](https://github.com/user-attachments/assets/9666580e-3ebc-4910-927c-03e1c61f1113)
+
+
+#### Resources 
+
+For those interested in learning more about AI agents, here are some valuable resources:
+
+Articles & Blog Posts:
+
+[Why agents are the next frontier of generative AI](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/why-agents-are-the-next-frontier-of-generative-ai)
+[Unlock the power of AI agents to scale generative AI innovation](https://www.kearney.com/service/digital-analytics/article/unlock-the-power-of-ai-agents-to-scale-generative-ai-innovation)
+[What are AI Agents?](https://aws.amazon.com/what-is/ai-agents/#:~:text=AI%20agents%20are%20rational%20agents,uses%20customer%20queries%20as%20input.)
+[Introduction to LLM Agents](https://developer.nvidia.com/blog/introduction-to-llm-agents/)
+[An Introduction to AI Agents](https://medium.com/humansdotai/an-introduction-to-ai-agents-e8c4afd2ee8f)
+
+Academic Papers:
+[A Survey on Context-Aware Multi-Agent Systems: Techniques, Challenges and Future Directions](https://arxiv.org/abs/2402.01968)
+[AI Agents That Matter](https://arxiv.org/abs/2407.01502)
+[The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864)
+
+
 
 
 
