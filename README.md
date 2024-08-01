@@ -135,6 +135,11 @@ If everything is wired up correctly you should see a response that contains the 
 
 For those interested in learning more about AI agents, here are some valuable resources:
 
+Videos:
+- [What's next for AI agentic workflows ft. Andrew Ng of AI Fund](https://www.youtube.com/watch?v=sal78ACtGTc&t)
+- [What are AI Agents?](https://www.youtube.com/watch?v=F8NKVhkZZWI)
+- [What's next for AI agents ft. LangChain's Harrison Chase](https://www.youtube.com/watch?v=pBBe1pk8hf4)
+
 Articles & Blog Posts:
 
 - [Why agents are the next frontier of generative AI](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/why-agents-are-the-next-frontier-of-generative-ai)
@@ -147,6 +152,8 @@ Academic Papers:
 - [A Survey on Context-Aware Multi-Agent Systems: Techniques, Challenges and Future Directions](https://arxiv.org/abs/2402.01968)
 - [AI Agents That Matter](https://arxiv.org/abs/2407.01502)
 - [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864)
+
+
 
 
 
