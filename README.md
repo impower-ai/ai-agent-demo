@@ -132,7 +132,7 @@ If everything is wired up correctly you should see a response that contains the 
 ![image](https://github.com/user-attachments/assets/9666580e-3ebc-4910-927c-03e1c61f1113)
 
 
-#### Resources 
+## Additional Resources 
 
 For those interested in learning more about AI agents, here are some valuable resources:
 
