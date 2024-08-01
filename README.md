@@ -96,7 +96,7 @@ We generally install Nitric using WSL if on Windows.
 Create .env file and add the following two variables
 
 - OPENAI_API_KEY
-- SERP_API_KEY (Free Tier Available)
+- SERP_API_KEY 
 
 ### Start the Project
 
