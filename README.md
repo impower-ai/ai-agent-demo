@@ -4,9 +4,11 @@ We believe recent technological advancements in Generative AI have propelled us 
 
 ## Background
 
-Over the past six years, we have been leveraging RPA tools to automate business processes both internally and for our clients. These low-code platforms are specifically designed to orchestrate business workflows across organizational infrastructure. These processes often span multiple systems, execute business logic, determine proper paths, incorporate human-in-the-loop concepts, and involve complex data analysis—all tasks that humans can quickly assess with their eyes and mind.
+Over the past six years, we have been leveraging RPA tools to automate business processes both internally and for our clients. These low-code platforms are specifically designed to orchestrate business workflows across organizational infrastructure. These processes often span multiple systems, execute business logic, determine proper paths, incorporate human-in-the-loop concepts, and involve complex data analysis.
 
-The term Intelligent Automation has been around for a while, often used as a sales tactic and elevator pitch to sell business process automation software as something it is not. At the end of the day, traditional business automation workflow software is just code designed to follow a specific path; there is no true intelligence here. We simply define exactly what we want our automation to do programmatically, and it does it. This is where RPA has always fallen short. We are taking flexible business processes and forcing them into rigid, predefined paths, limiting their true potential and significantly impacting the end-user experience.
+The term Intelligent Automation has been around for a while, often used as a sales tactic and elevator pitch to sell business process automation software as something it is not. At the end of the day, traditional business automation workflow software is just code designed to follow a specific path; there is no true intelligence here. We simply define exactly what we want our automation to do programmatically, and it does it. This is where RPA has always fallen short. We are taking flexible business processes and forcing them into rigid, predefined paths, with zero adaptability, limiting their true potential and significantly impacting the end-user experience.
+
+![image](https://github.com/user-attachments/assets/c2bc7e33-255e-4db4-bf60-f1e6abd388fe)
 
 We employ exceptional technologists who have frequently discussed the limitations of RPA. These discussions have propelled us on a quest for better solutions. We envision a world where automation is truly intelligent, capable of adapting, learning, and transforming businesses in unprecedented ways. With the technological advancements of recent years, we believe the time is now to turn this vision into reality.
 
@@ -14,15 +16,21 @@ Generative AI has undoubtedly made a profound impact on our society. Since Novem
 
 At a high level, Generative AI has evolved from being merely conversational to becoming autonomous. This evolution has given rise to the concept of Agentic systems. Although the definition is still somewhat vague as we are early in this journey, these systems address many of the shortcomings of traditional automation tools. Agentic systems are designed to adapt, learn, and operate independently, offering a more advanced and versatile approach to automation.
 
-What makes Agentic AI truly powerful is its ability to autonomously develop and reason through complex plans while recognizing when it needs human assistance. This blend of independence and collaborative ability ensures that business operations are not only streamlined but also intelligently managed. Imagine you were given a task to do; in your mind, you would format a plan of execution. This is exactly what our Agents are doing—formulating and executing sophisticated plans to achieve optimal results, while seamlessly integrating human input when necessary. This approach not only enhances efficiency but also leverages the unique strengths of both AI and human expertise.
+![image](https://github.com/user-attachments/assets/90446237-ebbd-4952-a255-e44b4785e4c8)
 
-Another key enabler of Agentic systems is the set of tools—applications that AI agents can interact with. These tools allow AI agents to reason and decide which resources are needed to fulfill their responsibilities effectively. Once an agent has its plan, it begins to execute it using the tools available. This is no different from how humans work. Think of a task like preparing meeting notes for a new client meeting. You would most likely work with a CRM to gather relevant client information and a word processing tool to draft the notes. Similarly, Agentic AI systems understand their responsibilities, devise plans, and utilize the appropriate tools to get the job done. Traditionally, agents can be trained on the API of external systems for integration, enabling them to seamlessly interact with various platforms and applications within your organization. These agents can even recognize when they need more information and proactively reach out to humans for assistance, ensuring a continuous and efficient workflow.
+
+
+What makes Agentic AI truly powerful is its ability to autonomously develop and reason through complex plans while recognizing when it needs human assistance. This blend of independence and collaborative ability ensures that business operations are not only streamlined but also intelligently managed. Imagine you were given a task to do; in your mind, you would format a plan of execution. If you didn't know what to do, you would ask for help. This is exactly what our Agents are doing—formulating and executing sophisticated plans to achieve optimal results, while seamlessly integrating human input when necessary. This approach not only enhances efficiency but also leverages the unique strengths of both AI and human expertise.
+
+![image](https://github.com/user-attachments/assets/5f99e186-1676-4d82-89d4-d1ea77725f9a)
+
+
+Another key enabler of Agentic systems is the set of tools—applications that AI agents can interact with. These tools allow AI agents to reason and decide which resources are needed to fulfill their responsibilities effectively. Once an agent has its plan, it begins to execute it using the tools available. This is no different from how humans work. Think of a task like preparing meeting notes for a new client meeting. You would likely utilize a CRM to manage and organize client information, conduct internet searches to gather relevant details, and use a word processing tool to draft your notes. Similarly, Agentic AI systems understand their responsibilities, devise plans, and utilize the appropriate tools to get the job done. Traditionally, agents can be trained on the API of external systems for integration, enabling them to seamlessly interact with various platforms and applications within your organization. 
 
 ![image](https://github.com/user-attachments/assets/d153c8b9-2a79-4acf-9f80-c2e5decbc6c4)
 
-This is a stark contrast from traditional automation tools, where developers need to deeply understand the business process, often requiring the process to be rigidly defined. Developers then have to code the process, handle exceptions, and constantly maintain the system. Now, we live in a world where business processes can be described in plain English to an AI agent. We simply provide the agent with the correct tools and guidelines, and watch it autonomously complete the task. These agents can even recognize when they need more information and proactively reach out to humans for assistance.
+This is a stark contrast from traditional automation tools, where developers need to deeply understand the business process, often requiring the process to be rigidly defined. Developers then have to code the process, handle exceptions, and constantly maintain the system. Now, we live in a world where business processes can be described in plain English to an AI agent. We simply provide the agent with the correct tools and guidelines, and watch it autonomously complete the task.
 
-![image](https://github.com/user-attachments/assets/c2bc7e33-255e-4db4-bf60-f1e6abd388fe)
 
 
 This shift not only significantly simplifies and accelerates the automation of business processes but also makes them more adaptable and efficient. By leveraging the unique strengths of both AI and human expertise, businesses can achieve a level of operational agility and intelligence that was previously unattainable.
@@ -62,7 +70,8 @@ We highly recommend checking out [v0 from Vercel](https://v0.dev/) to see some o
 
 #### OpenAI - https://openai.com/
 
-We are leveraging OpenAI as our LLM, as it provides the best developer experience out of the box for understanding this demo. Vercel's AI SDK supports many providers: https://sdk.vercel.ai/docs/foundations/providers-and-models
+We are leveraging OpenAI as our LLM, as it provides the best developer experience out of the box for understanding this demo. 
+Vercel's AI SDK supports many providers: https://sdk.vercel.ai/docs/foundations/providers-and-models
 
 #### SerpApi - https://serpapi.com/
 
@@ -76,11 +85,49 @@ We aimed to provide a demo that showcases several capabilities applicable across
 - **Interacting with APIs:** We built an "On This Day" tool that returns random facts about a specific day, illustrating how AI agents can seamlessly interact with external systems and incorporate the acquired knowledge into their processes.
 - **Crafting communication through emails:** Effective communication is crucial for AI agents, and our demo highlights their proficiency in creating well-crafted emails.
 
-#### Event Planner Agent
+## Running the Project
 
-This file defines an API endpoint `/agent/eventPlanner` that uses AI to assist in event planning. When a POST request is made to this endpoint with event details, it constructs a detailed prompt for the AI model. The AI agent then develops a comprehensive plan for execution. Once the plan is developed, the agent begins to execute it by leveraging the available tools. The endpoint manages any errors that occur during this process and currently returns the result of the plan or an error message in the response.
+### Install Nitric - https://nitric.io/docs/getting-started/installation
 
-![image](https://github.com/user-attachments/assets/04fe5ac2-0804-437c-8ed3-59aa90c5073d)
+We generally install Nitric using WSL if on Windows.
+
+### Add Environment Variables
+
+Create .env file and add the following two variables
+
+- OPENAI_API_KEY
+- SERP_API_KEY (Free Tier Available)
+
+### Start the Project
+
+To start your Nitric project, open your terminal and execute the following command:
+
+```sh
+nitric start
+```
+
+If you are on WSL on Windows add --no-browser to the command to avoid browser launch errors.
+
+```sh
+nitric start --no-browser
+```
+
+You should see the project load and open a dashboard. 
+
+![image](https://github.com/user-attachments/assets/dfcabe8d-3c20-4b94-88cf-43eb736262e4)
+
+### Send Request
+
+To send a request first navigate to the dashboard url.
+
+Enter a JSON body with a key of event.
+
+![image](https://github.com/user-attachments/assets/897ab5ff-7824-42fc-aafe-97ccf023e455)
+
+If everything is wired up correctly you should see a response that contains the plan and results.
+
+![image](https://github.com/user-attachments/assets/9666580e-3ebc-4910-927c-03e1c61f1113)
+
 
 
 
