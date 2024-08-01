@@ -28,6 +28,9 @@ This shift not only significantly simplifies and accelerates the automation of b
 
 We believe that in the near future, companies will have large teams of AI agents operating in parallel with employees, creating new levels of efficiency, innovation, and collaboration. When you harness the intelligence and reasoning of an LLM to business processes and enable seamless interaction with other systems, you transcend into the realm of TRUE intelligent automation.
 
+![image](https://github.com/user-attachments/assets/870768f6-c40e-4932-b286-9b075fec0b3c)
+
+
 ## Demo Overview
 
 ### Technology
