@@ -11,7 +11,7 @@ The term Intelligent Automation is not novel, and has often been exploited as a 
 ![image](https://github.com/user-attachments/assets/c2bc7e33-255e-4db4-bf60-f1e6abd388fe)
 
 
-We employ exceptional technologists with a high-level expertise in RPA development. However, discussions have consistently arisen regarding the inefficiencies and hinderences of RPA within a business context. These issues have propelled us on a quest for better solutions. We envision a world where automation is truly intelligent, capable of adapting, learning, and transforming businesses in unprecedented ways. With the technological advancements of recent years, we believe the time is now to turn this vision into reality.
+We employ exceptional technologists with a high-level expertise in RPA development. However, discussions have consistently arisen regarding the inefficiencies and hindrances of RPA within a business context. These issues have propelled us on a quest for better solutions. We envision a world where automation is truly intelligent, capable of adapting, learning, and transforming businesses in unprecedented ways. With the technological advancements of recent years, we believe the time is now to turn this vision into reality.
 
 Generative AI has undoubtedly made a profound impact on our society. Since November 30th, 2022, we have witnessed a significant shift in the user experiences and capabilities that can be integrated into our technology stack. Initially, it was remarkable to create a RAG (Retrieval-Augmented Generation) app on an internal knowledge base or offer customers a more personalized chat experience. Such is the past, however. We have now ventured into a broader set of use cases that will significantly shape organizations going forward.
 
