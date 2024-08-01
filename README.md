@@ -4,7 +4,7 @@ We believe recent technological advancements in Generative AI have propelled us 
 
 ## Background
 
-Over the past six years, we have leveraged RPA tools to automate business processes both internally and for our clients. These low-code platforms are specifically designed to orchestrate business workflows across organizational infrastructure. These processes often span multiple systems, execute business logic, determine proper paths, incorporate human-in-the-loop concepts, and involve complex data analysis—all tasks that humans can quickly visually assess and comprehend. 
+Over the past six years, we have leveraged RPA tools to automate business processes both internally and for our clients. These low-code platforms are specifically designed to orchestrate business workflows across organizational infrastructure. These processes often span multiple systems, execute business logic, determine proper paths, incorporate human-in-the-loop concepts, and involve complex data analysis . 
 
 The term Intelligent Automation is not novel, and has often been exploited as a sales tactic and elevator pitch to sell business process automation software as something it is not. Ultimately, traditional business automation workflow software is merely code designed to follow a specific path; there is no true intelligence here. We simply define exactly what we want our automation to do programmatically, and it follows the given workflow. This is where RPA has always fallen short. We are taking flexible business processes and forcing them into rigid, predefined paths, limiting their true potential.
 
@@ -28,10 +28,11 @@ What makes Agentic AI truly powerful is its ability to autonomously develop and 
 
 Another key enabler of Agentic systems is the set of tools—applications that AI agents can interact with. These tools allow AI agents to reason and decide which resources are needed to fulfill their responsibilities effectively. Once an agent has its plan, it begins to execute it using the tools available. This is no different from how humans work. Think of a task like preparing meeting notes for a new client meeting. You would likely utilize a CRM to manage and organize client information, conduct internet searches to gather relevant details, and use a word processing tool to draft your notes. Similarly, Agentic AI systems understand their responsibilities, devise plans, and utilize the appropriate tools to get the job done. Traditionally, agents can be trained on the API of external systems for integration, enabling them to seamlessly interact with various platforms and applications within your organization. 
 
+![image](https://github.com/user-attachments/assets/d153c8b9-2a79-4acf-9f80-c2e5decbc6c4)
+
 
 This is a stark contrast from traditional business process automation, where developers require substantial domain knowledge of a business process, often confining the process to rigidly defined parameters. Developers then have to code the process, handle exceptions, and constantly maintain the system. Now, we live in a world where business processes can be described in plain English to an AI agent. We simply provide the agent with the correct tools and guidelines, and watch it autonomously complete the task. These agents can even recognize when they need more information and proactively reach out to humans for assistance. This shift significantly simplifies and accelerates the automation of business processes, making them more adaptable and efficient.
 
-![image](https://github.com/user-attachments/assets/d153c8b9-2a79-4acf-9f80-c2e5decbc6c4)
 
 
 This shift not only significantly simplifies and accelerates the automation of business processes but also makes them more adaptable and efficient. By leveraging the unique strengths of both AI and human expertise, businesses can achieve a level of operational agility and intelligence that was previously unattainable.
@@ -130,22 +131,22 @@ If everything is wired up correctly you should see a response that contains the 
 ![image](https://github.com/user-attachments/assets/9666580e-3ebc-4910-927c-03e1c61f1113)
 
 
-#### Resources 
+## Additional Resources 
 
 For those interested in learning more about AI agents, here are some valuable resources:
 
 Articles & Blog Posts:
 
-[Why agents are the next frontier of generative AI](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/why-agents-are-the-next-frontier-of-generative-ai)
-[Unlock the power of AI agents to scale generative AI innovation](https://www.kearney.com/service/digital-analytics/article/unlock-the-power-of-ai-agents-to-scale-generative-ai-innovation)
-[What are AI Agents?](https://aws.amazon.com/what-is/ai-agents/#:~:text=AI%20agents%20are%20rational%20agents,uses%20customer%20queries%20as%20input.)
-[Introduction to LLM Agents](https://developer.nvidia.com/blog/introduction-to-llm-agents/)
-[An Introduction to AI Agents](https://medium.com/humansdotai/an-introduction-to-ai-agents-e8c4afd2ee8f)
+- [Why agents are the next frontier of generative AI](https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/why-agents-are-the-next-frontier-of-generative-ai)
+- [Unlock the power of AI agents to scale generative AI innovation](https://www.kearney.com/service/digital-analytics/article/unlock-the-power-of-ai-agents-to-scale-generative-ai-innovation)
+- [What are AI Agents?](https://aws.amazon.com/what-is/ai-agents/#:~:text=AI%20agents%20are%20rational%20agents,uses%20customer%20queries%20as%20input.)
+- [Introduction to LLM Agents](https://developer.nvidia.com/blog/introduction-to-llm-agents/)
+- [An Introduction to AI Agents](https://medium.com/humansdotai/an-introduction-to-ai-agents-e8c4afd2ee8f)
 
 Academic Papers:
-[A Survey on Context-Aware Multi-Agent Systems: Techniques, Challenges and Future Directions](https://arxiv.org/abs/2402.01968)
-[AI Agents That Matter](https://arxiv.org/abs/2407.01502)
-[The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864)
+- [A Survey on Context-Aware Multi-Agent Systems: Techniques, Challenges and Future Directions](https://arxiv.org/abs/2402.01968)
+- [AI Agents That Matter](https://arxiv.org/abs/2407.01502)
+- [The Rise and Potential of Large Language Model Based Agents: A Survey](https://arxiv.org/abs/2309.07864)
 
 
 
