@@ -11,14 +11,13 @@ The term Intelligent Automation is not novel, and has often been exploited as a 
 ![image](https://github.com/user-attachments/assets/c2bc7e33-255e-4db4-bf60-f1e6abd388fe)
 
 
-We employ exceptional technologists with a high-level expertise in RPA development. However, discussions have consistently arisen regarding the inefficiencies and hindrances of RPA within a business context. These issues have propelled us on a quest for better solutions. We envision a world where automation is truly intelligent, capable of adapting, learning, and transforming businesses in unprecedented ways. With the technological advancements of recent years, we believe the time is now to turn this vision into reality.
+We employ exceptional technologists with a high-level expertise in RPA development. However, discussions have consistently arisen regarding the inefficiencies and hinderences of RPA within a business context. These issues have propelled us on a quest for better solutions. We envision a world where automation is truly intelligent, capable of adapting, learning, and transforming businesses in unprecedented ways. With the technological advancements of recent years, we believe the time is now to turn this vision into reality.
 
 Generative AI has undoubtedly made a profound impact on our society. Since November 30th, 2022, we have witnessed a significant shift in the user experiences and capabilities that can be integrated into our technology stack. Initially, it was remarkable to create a RAG (Retrieval-Augmented Generation) app on an internal knowledge base or offer customers a more personalized chat experience. Such is the past, however. We have now ventured into a broader set of use cases that will significantly shape organizations going forward.
 
 At a high level, Generative AI has evolved from being merely conversational to becoming autonomous. This evolution has given rise to the concept of Agentic systems. Although the definition is still somewhat vague as we are early in this journey, these systems address many of the shortcomings of traditional automation tools. Agentic systems are designed to adapt, learn, and operate independently, offering a more advanced and versatile approach to automation.
 
 ![image](https://github.com/user-attachments/assets/90446237-ebbd-4952-a255-e44b4785e4c8)
-
 
 
 What makes Agentic AI truly powerful is its ability to autonomously develop and reason through complex plans while recognizing when it needs human assistance. This blend of independence and collaborative ability ensures that business operations are not only streamlined but also intelligently managed. Imagine you were given a task to do; in your mind, you would format a plan of execution. If you didn't know what to do, you would ask for help. This is exactly what our Agents are doing—formulating and executing sophisticated plans to achieve optimal results, while seamlessly integrating human input when necessary. This approach not only enhances efficiency but also leverages the unique strengths of both AI and human expertise.
