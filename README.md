@@ -4,7 +4,7 @@ We believe recent technological advancements in Generative AI have propelled us 
 
 ## Background
 
-Over the past six years, we have leveraged RPA tools to automate business processes both internally and for our clients. These low-code platforms are specifically designed to orchestrate business workflows across organizational infrastructure. These processes often span multiple systems, execute business logic, determine proper paths, incorporate human-in-the-loop concepts, and involve complex data analysis—all tasks that humans can quickly visually assess and comprehend. 
+Over the past six years, we have leveraged RPA tools to automate business processes both internally and for our clients. These low-code platforms are specifically designed to orchestrate business workflows across organizational infrastructure. These processes often span multiple systems, execute business logic, determine proper paths, incorporate human-in-the-loop concepts, and involve complex data analysis. 
 
 The term Intelligent Automation is not novel and has often been exploited as a sales tactic and elevator pitch to sell business process automation software as something it is not. Ultimately, traditional business automation workflow software is merely code designed to follow a specific path; there is no true intelligence here. We simply define exactly what we want our automation to do programmatically, and it follows the given workflow. This is where RPA has always fallen short. We are taking flexible business processes and forcing them into rigid, predefined paths, limiting their true potential.
 
