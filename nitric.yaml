@@ -4,3 +4,4 @@ services:
       runtime: ""
       type: ""
       start: npm run dev:services $SERVICE_PATH
+
