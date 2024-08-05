@@ -16,15 +16,17 @@ We employ exceptional technologists with a high-level expertise in RPA developme
 
 Since November 30th, 2022, Generative AI has profoundly impacted our society, transforming user experiences and capabilities in our technology stack. Initially, it was impressive to create Retrieval-Augmented Generation (RAG)  apps or offer personalized chat experiences. However, we have now expanded into broader use cases that will significantly shape organizations for years to come. Generative AI has evolved from being conversational to autonomous, giving rise to Agentic systems. These systems address the shortcomings of traditional automation tools, offering a more advanced and versatile approach to automation.
 
-Agentic AI's power lies in its ability to autonomously develop and execute complex plans while seeking human assistance when needed. This blend of independence and collaboration ensures streamlined and intelligent business operations, closely mirroring how humans naturally work. Unlike traditional automation, which follows rigid, predefined paths, Agentic AI reasons, adapts and evolves. For example, if you were preparing for a new client meeting, you would develop a plan, execute tasks, and seek help if needed—just like Agentic AI.
-
 
 ![image](https://github.com/user-attachments/assets/90446237-ebbd-4952-a255-e44b4785e4c8)
 
+Agentic AI's power lies in its ability to autonomously develop and execute complex plans while seeking human assistance when needed. This blend of independence and collaboration ensures streamlined and intelligent business operations, closely mirroring how humans naturally work. Unlike traditional automation, which follows rigid, predefined paths, Agentic AI reasons, adapts and evolves. For example, if you were preparing for a new client meeting, you would develop a plan, execute tasks, and seek help if needed—just like Agentic AI.
+
+
+![image](https://github.com/user-attachments/assets/5f99e186-1676-4d82-89d4-d1ea77725f9a)
 
 Another key enabler of Agentic systems is the set of tools—applications that AI agents can interact with. These tools allow AI agents to reason, decide, and fulfill their responsibilities effectively. Once an agent has its plan, it executes using available tools, similar to humans. For instance, when preparing for that new client meeting, you might use a CRM for client information, search online for details, and draft notes in a word processor. Likewise, Agentic AI systems understand their tasks, devise plans, and use the appropriate tools to accomplish them. Agents can be trained on external system APIs, enabling seamless interaction with various platforms and applications within your organization.
 
-![image](https://github.com/user-attachments/assets/5f99e186-1676-4d82-89d4-d1ea77725f9a)
+
 
 
 This is a stark contrast from traditional business process automation, where developers require substantial domain knowledge of a business process, often confining the process to rigidly defined parameters. Developers then code the process, handle exceptions, and maintain the system.
