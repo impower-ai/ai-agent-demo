@@ -14,12 +14,5 @@ export const registry = createProviderRegistry({
         apiKey: process.env.OPENAI_API_KEY,
     }),
 
-
-    azure: createAzure({
-        resourceName: process.env.AZURE_RG,
-        apiKey: process.env.AZURE_OPENAI_API_KEY,
-    }),
-
-
     // add more proviers to your registry
 });
