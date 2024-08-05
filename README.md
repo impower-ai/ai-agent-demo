@@ -43,6 +43,7 @@ We believe companies will soon have large teams of AI agents operating in parall
 
 ![image](https://github.com/user-attachments/assets/870768f6-c40e-4932-b286-9b075fec0b3c)
 
+We have created an open-source repository featuring a starter framework that leverages some of our preferred technologies to help you understand and implement Agentic AI in your organization. Designed with accessibility in mind, this resource offers a comprehensive foundation in Agentic AI, complete with practical steps to get you started. You can explore the repository here, which includes detailed instructions and descriptions of the technologies and patterns used.
 
 ## Demo Overview
 
