@@ -40,8 +40,8 @@ Now, we live in a world where business processes can be described in plain Engli
 
 We believe companies will soon have large teams of AI agents operating in parallel with employees, creating new levels of efficiency, innovation, and collaboration. When you harness the intelligence and reasoning of an LLM within business processes and enable seamless interaction with other systems, you transcend into the realm of TRUE intelligent automation.
 
+![image](https://github.com/user-attachments/assets/74d4327a-6366-4f14-91fa-00d592bcf571)
 
-![image](https://github.com/user-attachments/assets/870768f6-c40e-4932-b286-9b075fec0b3c)
 
 We have created an open-source repository featuring a starter framework that leverages some of our preferred technologies to help you understand and implement Agentic AI in your organization. Designed with accessibility in mind, this resource offers a comprehensive foundation in Agentic AI, complete with practical steps to get you started. You can explore the repository here, which includes detailed instructions and descriptions of the technologies and patterns used.
 
