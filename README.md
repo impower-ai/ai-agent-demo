@@ -35,6 +35,9 @@ This is a stark contrast from traditional business process automation, where dev
 
 Now, we live in a world where business processes can be described in plain English to an AI agent. We simply provide the agent with the correct tools and guidelines, and watch it autonomously complete the task. This shift significantly simplifies and accelerates the automation of business processes, making them more adaptable and efficient.
 
+![image](https://github.com/user-attachments/assets/ae86dca3-eac6-49a7-8c10-4c0bc8ab2039)
+
+
 We believe companies will soon have large teams of AI agents operating in parallel with employees, creating new levels of efficiency, innovation, and collaboration. When you harness the intelligence and reasoning of an LLM within business processes and enable seamless interaction with other systems, you transcend into the realm of TRUE intelligent automation.
 
 
